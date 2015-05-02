@@ -1,0 +1,179 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="win32">
+      <UniqueIdentifier>{84a8ebd7-7cf0-47f6-b75e-d441df67da40}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="resource">
+      <UniqueIdentifier>{715254bc-d70b-4ec5-bf29-467dd3ace079}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Classes">
+      <UniqueIdentifier>{a293c375-7dc4-4c4c-8fed-c141407c26ed}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Classes\Entity">
+      <UniqueIdentifier>{e0036385-5882-4793-924c-6ba99bfc0093}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Classes\Manager">
+      <UniqueIdentifier>{33528c66-c103-4c7e-84d0-1fb2fda87f0e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Classes\Model">
+      <UniqueIdentifier>{539b5591-9baf-4330-8adf-da7485c35e35}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Classes\Util">
+      <UniqueIdentifier>{7ae951bd-f9f4-4e4f-9d0f-4407d59cb747}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Classes\View">
+      <UniqueIdentifier>{ee38ccca-a65c-4ddd-8b5a-43f373e7d75f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Classes\Manager\BaseManager">
+      <UniqueIdentifier>{7bb08ea9-3399-4c36-95bd-ba7bb05255d4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Classes\Manager\ResourceManager">
+      <UniqueIdentifier>{9bb1a7f5-9964-42e1-8a05-19a9f86a2e26}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Classes\Manager\UIManager">
+      <UniqueIdentifier>{1fe73360-9d08-4c0d-b405-4386fcdd5a36}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Classes\Manager\GameManager">
+      <UniqueIdentifier>{213cc8db-3f11-4e35-b682-096448f80e08}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Classes\Manager\DataManager">
+      <UniqueIdentifier>{05999335-1156-4298-8ab1-76bc0d8c83d6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Classes\Scene">
+      <UniqueIdentifier>{3adaa1fe-87b0-4017-805a-5d0178c70270}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Classes\Scene\BaseScene">
+      <UniqueIdentifier>{b2169e1d-0eae-439c-872b-2e0b4f99f1b4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Classes\Scene\MainScene">
+      <UniqueIdentifier>{7d6d58ad-881a-4781-b95e-773d3cd37c20}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Classes\View\Base">
+      <UniqueIdentifier>{3c6b81a6-23cd-4967-a05c-373b096ca28a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="AppDelegate">
+      <UniqueIdentifier>{bb6c862e-70e9-49d9-81b7-3829a6f50471}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Classes\Manager\SceneManager">
+      <UniqueIdentifier>{2e50f72f-999f-4678-b6bf-64e705c2acb5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Classes\View\Menu">
+      <UniqueIdentifier>{f5619665-1c27-466b-8ca1-f292492bfae3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Classes\Scene\GameScene">
+      <UniqueIdentifier>{2f473101-19b7-463d-b8b2-85b5453a1260}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Classes\View\Shop">
+      <UniqueIdentifier>{84e76c71-3578-44a3-a48d-b129f7771d00}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Classes\View\Create">
+      <UniqueIdentifier>{2dbf35ef-a7af-4a46-b2ca-f23120318463}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>win32</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\AppDelegate.cpp">
+      <Filter>AppDelegate</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Scene\MenuScene.cpp">
+      <Filter>Classes\Scene\MainScene</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Manager\BaseManager.cpp">
+      <Filter>Classes\Manager\BaseManager</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Scene\BaseScene.cpp">
+      <Filter>Classes\Scene\BaseScene</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\View\BaseView.cpp">
+      <Filter>Classes\View\Base</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\View\BaseController.cpp">
+      <Filter>Classes\View\Base</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\View\MenuController.cpp">
+      <Filter>Classes\View\Menu</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Scene\GameScene.cpp">
+      <Filter>Classes\Scene\GameScene</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Manager\UIManager.cpp">
+      <Filter>Classes\Manager\UIManager</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\View\ShopController.cpp">
+      <Filter>Classes\View\Shop</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\View\ShopView.cpp">
+      <Filter>Classes\View\Shop</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Manager\SceneManager.cpp">
+      <Filter>Classes\Manager\SceneManager</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Manager\GameManager.cpp">
+      <Filter>Classes\Manager\GameManager</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\View\CreateView.cpp">
+      <Filter>Classes\View\Create</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\View\CreateController.cpp">
+      <Filter>Classes\View\Create</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="main.h">
+      <Filter>win32</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\AppDelegate.h">
+      <Filter>AppDelegate</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Scene\MenuScene.h">
+      <Filter>Classes\Scene\MainScene</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Manager\BaseManager.h">
+      <Filter>Classes\Manager\BaseManager</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Scene\BaseScene.h">
+      <Filter>Classes\Scene\BaseScene</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\View\BaseController.h">
+      <Filter>Classes\View\Base</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\View\MenuController.h">
+      <Filter>Classes\View\Menu</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Scene\GameScene.h">
+      <Filter>Classes\Scene\GameScene</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Manager\UIManager.h">
+      <Filter>Classes\Manager\UIManager</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\View\ShopController.h">
+      <Filter>Classes\View\Shop</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\View\BaseView.h">
+      <Filter>Classes\View\Base</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\View\ShopView.h">
+      <Filter>Classes\View\Shop</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Manager\SceneManager.h">
+      <Filter>Classes\Manager\SceneManager</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Manager\GameManager.h">
+      <Filter>Classes\Manager\GameManager</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\View\CreateController.h">
+      <Filter>Classes\View\Create</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\View\CreateView.h">
+      <Filter>Classes\View\Create</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="game.rc">
+      <Filter>resource</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+</Project>
