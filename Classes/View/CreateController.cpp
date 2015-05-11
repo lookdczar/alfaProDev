@@ -15,9 +15,9 @@ bool CreateController::init()
 	Vec2 origin = Director::getInstance()->getVisibleOrigin();
 	
 	//≥ı ºªØview
-	view = CreateView::create();
+	_view = CreateView::create();
 	//œ‘ æview
-	viewWillAppear();
+	viewWillAppear(_view);
 
     return true;
 }

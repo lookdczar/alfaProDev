@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>001</key>
+	<dict>
+		<key>areaId</key>
+		<string>001</string>
+		<key>areaImg</key>
+		<string>adventure001.png</string>
+		<key>areaName</key>
+		<string>area1</string>
+		<key>areaRank</key>
+		<string>1</string>
+		<key>rewards</key>
+		<dict>
+			<key>001</key>
+			<string>0.5</string>
+		</dict>
+	</dict>
+	<key>002</key>
+	<dict>
+		<key>areaId</key>
+		<string>002</string>
+		<key>areaImg</key>
+		<string>adventure002.png</string>
+		<key>areaName</key>
+		<string>area2</string>
+		<key>areaRank</key>
+		<string>2</string>
+		<key>rewards</key>
+		<dict>
+			<key>002</key>
+			<string>0.2</string>
+		</dict>
+	</dict>
+</dict>
+</plist>

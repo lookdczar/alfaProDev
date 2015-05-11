@@ -8,8 +8,8 @@ bool BaseView::init()
 	if (!Node::init())
 		return false;
     
-   // Size visibleSize = Director::getInstance()->getVisibleSize();
-   // Vec2 origin = Director::getInstance()->getVisibleOrigin();
+   //visibleSize = Director::getInstance()->getVisibleSize();
+   //origin = Director::getInstance()->getVisibleOrigin();
 
     return true;
 }

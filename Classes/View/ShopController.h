@@ -4,8 +4,13 @@
 #include "cocos2d.h"
 #include "BaseController.h"
 
+class ShopView;
+
 class ShopController : public BaseController
 {
+public:
+	ShopView* _view;
+
 public:
 
     virtual bool init();
@@ -13,6 +18,7 @@ public:
 	void menuStartGameCallback(cocos2d::Ref* pSender);
 
 	CREATE_FUNC(ShopController);
+
 };
 
 #endif 

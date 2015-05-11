@@ -5,6 +5,10 @@
 
 class BaseView : public cocos2d::Node
 {
+protected:
+	//Size visibleSize;
+	//Vec2 origin;
+
 public:
 
     virtual bool init();

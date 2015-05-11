@@ -67,7 +67,7 @@ bool UIManager::initWithLayers(Layer *layer, va_list params)
 	_tabBarBg->setPosition(visibleSize.width * 0.5, tabBarSize.height*0.5);
 
 	_layers = LayerMultiplex::createWithArray(_arrayOfLayers);
-	_layers->setPosition(0.0, tabBarSize.height);
+	_layers->setPosition(origin.x, origin.y);
 	this->addChild(_layers);
 
 	this->addChild(_tabBarBg, 1000);
@@ -85,7 +85,7 @@ bool UIManager::initWithLayers(Layer *layer, va_list params)
 	toolbar4->setTag(TABBARTAG + 3);
 
 	auto toolbar5 = MenuItemSprite::create(Sprite::create("tabBarItem.png"), Sprite::create("tabBarItem_p.png"), CC_CALLBACK_1(UIManager::tapBarPressed, this));
-	toolbar4->setTag(TABBARTAG + 4);
+	toolbar5->setTag(TABBARTAG + 4);
 
 	_tabBar = Menu::create(toolbar1, toolbar2, toolbar3, toolbar4, toolbar5,NULL);
 	_tabBar->alignItemsHorizontallyWithPadding(1);

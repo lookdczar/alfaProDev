@@ -70,6 +70,30 @@
     <Filter Include="Classes\View\Create">
       <UniqueIdentifier>{2dbf35ef-a7af-4a46-b2ca-f23120318463}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Classes\Entity\AdventureEntity">
+      <UniqueIdentifier>{371e3c59-6e4f-4955-8877-f01aad07ab75}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Classes\Entity\Base">
+      <UniqueIdentifier>{06e55a91-465d-47ae-874d-319f28a5d175}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="AppDelegate\Config">
+      <UniqueIdentifier>{725f65ed-cd89-4961-bd48-a14f4bbf9d72}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Classes\View\Adventure">
+      <UniqueIdentifier>{d573d5c2-f234-4429-80b4-dd7f4ec28019}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Classes\Model\Base">
+      <UniqueIdentifier>{2fb9f432-a70a-46fb-b0df-b5f2132cbcec}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Classes\Model\Adventure">
+      <UniqueIdentifier>{a158eae6-9fa0-44de-b785-bd9b54e1eef0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Classes\Manager\DataManager\CacheData">
+      <UniqueIdentifier>{27851851-56a7-4885-b53a-cb4ce44971f1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Classes\Manager\DataManager\UserData">
+      <UniqueIdentifier>{541dca78-2903-44ea-aaad-10c020ed4f61}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="main.cpp">
@@ -120,6 +144,45 @@
     <ClCompile Include="..\Classes\View\CreateController.cpp">
       <Filter>Classes\View\Create</Filter>
     </ClCompile>
+    <ClCompile Include="..\Classes\Entity\AdvAreaData.cpp">
+      <Filter>Classes\Entity\AdventureEntity</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Manager\UserDataManager.cpp">
+      <Filter>Classes\Manager\DataManager</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Manager\ResourceManager.cpp">
+      <Filter>Classes\Manager\ResourceManager</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Manager\CacheManager.cpp">
+      <Filter>Classes\Manager\DataManager</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Entity\BaseDataEntity.cpp">
+      <Filter>Classes\Entity\Base</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\View\AdvView.cpp">
+      <Filter>Classes\View\Adventure</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\View\AdvController.cpp">
+      <Filter>Classes\View\Adventure</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Model\BaseModel.cpp">
+      <Filter>Classes\Model\Base</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Model\AdvModel.cpp">
+      <Filter>Classes\Model\Adventure</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Manager\CacheData.cpp">
+      <Filter>Classes\Manager\DataManager\CacheData</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Manager\UserData.cpp">
+      <Filter>Classes\Manager\DataManager\UserData</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Util\CommonHelper.cpp">
+      <Filter>Classes\Util</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Util\FileHelper.cpp">
+      <Filter>Classes\Util</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="main.h">
@@ -169,6 +232,48 @@
     </ClInclude>
     <ClInclude Include="..\Classes\View\CreateView.h">
       <Filter>Classes\View\Create</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Entity\AdvAreaData.h">
+      <Filter>Classes\Entity\AdventureEntity</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Manager\UserDataManager.h">
+      <Filter>Classes\Manager\DataManager</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Manager\ResourceManager.h">
+      <Filter>Classes\Manager\ResourceManager</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Manager\CacheManager.h">
+      <Filter>Classes\Manager\DataManager</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Entity\BaseDataEntity.h">
+      <Filter>Classes\Entity\Base</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Config.h">
+      <Filter>AppDelegate\Config</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\View\AdvController.h">
+      <Filter>Classes\View\Adventure</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\View\AdvView.h">
+      <Filter>Classes\View\Adventure</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Model\BaseModel.h">
+      <Filter>Classes\Model\Base</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Model\AdvModel.h">
+      <Filter>Classes\Model\Adventure</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Manager\CacheData.h">
+      <Filter>Classes\Manager\DataManager\CacheData</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Manager\UserData.h">
+      <Filter>Classes\Manager\DataManager\UserData</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Util\CommonHelper.h">
+      <Filter>Classes\Util</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Util\FileHelper.h">
+      <Filter>Classes\Util</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>

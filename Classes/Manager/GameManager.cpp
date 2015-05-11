@@ -1,5 +1,6 @@
 #include "GameManager.h"
 
+
 USING_NS_CC;
 
 GameManager* GameManager::gameManager = nullptr;
@@ -20,6 +21,10 @@ GameManager* GameManager::getInstance()
 
 GameManager::~GameManager()
 {
+	CC_SAFE_RELEASE(sceneManager);
+	CC_SAFE_RELEASE(resManager);
+	CC_SAFE_RELEASE(cacheManager);
+	CC_SAFE_RELEASE(userDataManager);
 }
 
 
@@ -31,6 +36,9 @@ void GameManager::destroyInstance()
 void GameManager::init()
 {
 	sceneManager = new SceneManager();
+	resManager = new ResourceManager();
+	cacheManager = new CacheManager();
+	userDataManager = new UserDataManager();
 
 	return ;
 }

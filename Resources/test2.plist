@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<plist version="1.0">
+    <dic>
+        <key>e</key>
+        <string>e</string>
+        <key>c</key>
+        <false/>
+        <key>b</key>
+        <real>5.5000000000000000</real>
+        <key>a</key>
+        <integer>10</integer>
+        <key>advUnlocked</key>
+        <array>
+            <string>001</string>
+            <integer>2</integer>
+            <real>1.1000000000000001</real>
+            <false/>
+        </array>
+    </dic>
+</plist>

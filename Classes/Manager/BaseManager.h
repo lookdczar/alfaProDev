@@ -3,6 +3,9 @@
 #define _BASE_MANAGER_H_
 
 #include "cocos2d.h"
+//#include "GameManager.h"
+#include "Config.h"
+
 class BaseManager : public cocos2d::Ref
 {
 public:

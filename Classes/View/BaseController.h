@@ -7,14 +7,14 @@
 class BaseController : public cocos2d::Layer
 {
 public:
-	BaseView* view;
+	//BaseView* view;
 
 public:
 
     virtual bool init();
 
 protected:
-	void viewWillAppear();
+	void viewWillAppear(BaseView* view);
 
 
 };

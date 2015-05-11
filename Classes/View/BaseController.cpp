@@ -16,7 +16,7 @@ bool BaseController::init()
     return true;
 }
 
-void BaseController::viewWillAppear()
+void BaseController::viewWillAppear(BaseView* view)
 {
 	Size visibleSize = Director::getInstance()->getVisibleSize();
 	Vec2 origin = Director::getInstance()->getVisibleOrigin();

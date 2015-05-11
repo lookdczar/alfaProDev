@@ -140,13 +140,26 @@ xcopy "$(ProjectDir)..\Resources" "$(OutDir)" /D /E /I /F /Y</Command>
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="..\Classes\AppDelegate.cpp" />
+    <ClCompile Include="..\Classes\Entity\AdvAreaData.cpp" />
+    <ClCompile Include="..\Classes\Entity\BaseDataEntity.cpp" />
     <ClCompile Include="..\Classes\Manager\BaseManager.cpp" />
+    <ClCompile Include="..\Classes\Manager\CacheData.cpp" />
+    <ClCompile Include="..\Classes\Manager\CacheManager.cpp" />
     <ClCompile Include="..\Classes\Manager\GameManager.cpp" />
+    <ClCompile Include="..\Classes\Manager\ResourceManager.cpp" />
     <ClCompile Include="..\Classes\Manager\SceneManager.cpp" />
     <ClCompile Include="..\Classes\Manager\UIManager.cpp" />
+    <ClCompile Include="..\Classes\Manager\UserData.cpp" />
+    <ClCompile Include="..\Classes\Manager\UserDataManager.cpp" />
+    <ClCompile Include="..\Classes\Model\AdvModel.cpp" />
+    <ClCompile Include="..\Classes\Model\BaseModel.cpp" />
     <ClCompile Include="..\Classes\Scene\BaseScene.cpp" />
     <ClCompile Include="..\Classes\Scene\GameScene.cpp" />
     <ClCompile Include="..\Classes\Scene\MenuScene.cpp" />
+    <ClCompile Include="..\Classes\Util\CommonHelper.cpp" />
+    <ClCompile Include="..\Classes\Util\FileHelper.cpp" />
+    <ClCompile Include="..\Classes\View\AdvController.cpp" />
+    <ClCompile Include="..\Classes\View\AdvView.cpp" />
     <ClCompile Include="..\Classes\View\BaseController.cpp" />
     <ClCompile Include="..\Classes\View\BaseView.cpp" />
     <ClCompile Include="..\Classes\View\CreateController.cpp" />
@@ -158,13 +171,27 @@ xcopy "$(ProjectDir)..\Resources" "$(OutDir)" /D /E /I /F /Y</Command>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="..\Classes\AppDelegate.h" />
+    <ClInclude Include="..\Classes\Config.h" />
+    <ClInclude Include="..\Classes\Entity\AdvAreaData.h" />
+    <ClInclude Include="..\Classes\Entity\BaseDataEntity.h" />
     <ClInclude Include="..\Classes\Manager\BaseManager.h" />
+    <ClInclude Include="..\Classes\Manager\CacheData.h" />
+    <ClInclude Include="..\Classes\Manager\CacheManager.h" />
     <ClInclude Include="..\Classes\Manager\GameManager.h" />
+    <ClInclude Include="..\Classes\Manager\ResourceManager.h" />
     <ClInclude Include="..\Classes\Manager\SceneManager.h" />
     <ClInclude Include="..\Classes\Manager\UIManager.h" />
+    <ClInclude Include="..\Classes\Manager\UserData.h" />
+    <ClInclude Include="..\Classes\Manager\UserDataManager.h" />
+    <ClInclude Include="..\Classes\Model\AdvModel.h" />
+    <ClInclude Include="..\Classes\Model\BaseModel.h" />
     <ClInclude Include="..\Classes\Scene\BaseScene.h" />
     <ClInclude Include="..\Classes\Scene\GameScene.h" />
     <ClInclude Include="..\Classes\Scene\MenuScene.h" />
+    <ClInclude Include="..\Classes\Util\CommonHelper.h" />
+    <ClInclude Include="..\Classes\Util\FileHelper.h" />
+    <ClInclude Include="..\Classes\View\AdvController.h" />
+    <ClInclude Include="..\Classes\View\AdvView.h" />
     <ClInclude Include="..\Classes\View\BaseController.h" />
     <ClInclude Include="..\Classes\View\BaseView.h" />
     <ClInclude Include="..\Classes\View\CreateController.h" />

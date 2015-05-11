@@ -15,9 +15,9 @@ bool ShopController::init()
 	Vec2 origin = Director::getInstance()->getVisibleOrigin();
 	
 	//≥ı ºªØview
-	view = ShopView::create();
+	_view = ShopView::create();
 	//œ‘ æview
-	viewWillAppear();
+	viewWillAppear(_view);
 
     return true;
 }

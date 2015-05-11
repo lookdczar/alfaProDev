@@ -14,7 +14,6 @@ bool SceneManager::init()
 {
 	if (!BaseManager::init())
 		return false;
-
 	return true;
 }
 
@@ -22,3 +21,4 @@ void SceneManager::replaceScene(Scene* scene)
 {
 	Director::getInstance()->replaceScene(scene);
 }
+
