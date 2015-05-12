@@ -12,6 +12,8 @@
 		<string>Herb</string>
 		<key>itemRank</key>
 		<string>1</string>
+		<key>itemType</key>
+		<string>1</string>
 		<key>itemWorth</key>
 		<string>1</string>
 	</dict>
@@ -25,6 +27,8 @@
 		<string>Blue Mushroom</string>
 		<key>itemRank</key>
 		<string>1</string>
+		<key>itemType</key>
+		<string>3</string>
 		<key>itemWorth</key>
 		<string>1</string>
 	</dict>

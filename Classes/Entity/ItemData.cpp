@@ -42,6 +42,8 @@ bool ItemData::bindingData(const ValueMap& mapData)
 	itemRank = mapData.at("itemRank");
 	//物品稀有度（用于计算掉率、产出率、产出数、合成成功率等）
 	itemWorth = mapData.at("itemWorth");
+	//物品类别(掉落，草，石头，蘑菇。。。。）
+	itemType = mapData.at("itemType");
 
 	return true;
 }

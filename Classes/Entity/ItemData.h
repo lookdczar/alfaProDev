@@ -7,6 +7,20 @@
 
 USING_NS_CC;
 
+//物品类别
+typedef  enum struct itemType{
+	//一般掉落物品
+	common = 0,
+	//可以种植的草
+	plant,
+	//矿物
+	rock,
+	//蘑菇
+	mushroom,
+	//enum结束标识
+	resTypeEnd
+}  ITEM_TYPE;
+
 ///物品数据实体
 class ItemData : public BaseDataEntity
 {
@@ -21,6 +35,8 @@ public:
 	Value itemRank;
 	//物品稀有度（用于计算掉率、产出率、产出数、合成成功率等）
 	Value itemWorth;
+	//物品类别(掉落，草，石头，蘑菇。。。。）
+	Value itemType;
 
 public:
 	ItemData();

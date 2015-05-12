@@ -20,6 +20,7 @@
 typedef  enum struct resType{
 	//冒险场景信息
 	advAreaInfo = 0,
+	//物品信息
 	itemInfo,
 	//enum结束标识
 	resTypeEnd
