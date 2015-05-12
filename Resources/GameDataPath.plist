@@ -12,5 +12,15 @@
 			<string>adventure002.png</string>
 		</array>
 	</dict>
+	<key>itemInfo</key>
+	<dict>
+		<key>dataPlist</key>
+		<string>ItemInfo.plist</string>
+		<key>imgSingleArr</key>
+		<array>
+			<string>00B1.jpg</string>
+			<string>00BD.png</string>
+		</array>
+	</dict>
 </dict>
 </plist>

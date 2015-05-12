@@ -20,11 +20,12 @@
 typedef  enum struct resType{
 	//冒险场景信息
 	advAreaInfo = 0,
+	itemInfo,
 	//enum结束标识
 	resTypeEnd
 }  RES_TYPE;
 
-static std::string resTypeStr[int(RES_TYPE::resTypeEnd)] = {"advAreaInfo"};
+static std::string resTypeStr[int(RES_TYPE::resTypeEnd)] = {"advAreaInfo,itemInfo"};
 
 /** 用户数据资源类型 */
 typedef  enum  struct userDataType{

@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>00B1</key>
+	<dict>
+		<key>itemId</key>
+		<string>薬草</string>
+		<key>itemImg</key>
+		<string>00B1.jpg</string>
+		<key>itemName</key>
+		<string>Herb</string>
+		<key>itemRank</key>
+		<string>1</string>
+		<key>itemWorth</key>
+		<string>1</string>
+	</dict>
+	<key>00BD</key>
+	<dict>
+		<key>itemId</key>
+		<string>蓝蘑菇</string>
+		<key>itemImg</key>
+		<string>00BD.png</string>
+		<key>itemName</key>
+		<string>Blue Mushroom</string>
+		<key>itemRank</key>
+		<string>1</string>
+		<key>itemWorth</key>
+		<string>1</string>
+	</dict>
+</dict>
+</plist>
