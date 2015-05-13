@@ -51,6 +51,6 @@ bool UserDataManager::saveAllUserData()
 	{
 		map[data.first] = data.second->userData;
 	}
-	FileHelper::plistWriteFile(map, F_USER_DATA);
+	return FileHelper::plistWriteFile(map, F_USER_DATA);
 }
 	

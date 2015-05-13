@@ -22,21 +22,25 @@ typedef  enum struct resType{
 	advAreaInfo = 0,
 	//物品信息
 	itemInfo,
+	//建筑信息
+	farmBuildInfo,
 	//enum结束标识
 	resTypeEnd
 }  RES_TYPE;
 
-static std::string resTypeStr[int(RES_TYPE::resTypeEnd)] = {"advAreaInfo,itemInfo"};
+static std::string resTypeStr[int(RES_TYPE::resTypeEnd)] = {"advAreaInfo","itemInfo","farmBuildInfo"};
 
 /** 用户数据资源类型 */
 typedef  enum  struct userDataType{
 	//已解锁冒险场景
 	advUnlocked = 0,
+	//已解锁的农场建筑
+	buildUnlocked,
 	//enum结束标识
 	userDataEnd
 }  USER_DATA_TYPE;
 
-static std::string userDataTypeStr[int(USER_DATA_TYPE::userDataEnd)] = { "advUnlocked" };
+static std::string userDataTypeStr[int(USER_DATA_TYPE::userDataEnd)] = { "advUnlocked","buildUnlocked" };
 
 
 /****************所有文件名定义以F_开头***************/

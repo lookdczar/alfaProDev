@@ -22,5 +22,14 @@
 			<string>00BD.png</string>
 		</array>
 	</dict>
+  <key>farmBuildInfo</key>
+  <dict>
+    <key>dataPlist</key>
+    <string>farmBuildInfo.plist</string>
+    <key>imgSingleArr</key>
+    <array>
+      <string>farmBuild001.png</string>
+    </array>
+  </dict>
 </dict>
 </plist>

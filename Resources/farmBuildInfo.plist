@@ -2,14 +2,14 @@
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
 <dict>
-	<key>advUnlocked</key>
-	<array>
+	<key>001</key>
+	<dict>
+		<key>buildId</key>
 		<string>001</string>
-		<string>002</string>
-	</array>
-  <key>buildUnlocked</key>
-	<array>
-		<string>001</string>
-	</array>
+		<key>buildImg</key>
+		<string>farmBuild001.png</string>
+		<key>buildName</key>
+		<string>woodhouse</string>
+	</dict>
 </dict>
 </plist>

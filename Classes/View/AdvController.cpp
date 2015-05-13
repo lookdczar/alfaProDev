@@ -30,6 +30,13 @@ bool AdvController::init()
 	_model = AdvModel::create(_view);
 	_model->retain();
 
+	//获取已经解锁场景ID
+	_model->getUserDataAndInitInfos();
+	//获取解锁场景具体信息
+	_model->getDetailInfos();
+	//让场景显示
+	_view->showAdvArea(_model->_advAreaInfos);
+
 	//显示view
 	viewWillAppear(_view);
 

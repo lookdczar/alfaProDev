@@ -23,13 +23,6 @@ bool AdvModel::init(AdvView* view)
 {
 	if (!BaseModel::init())
 		return false;
-	_view = view;
-	//获取已经解锁场景ID
-	getUserDataAndInitInfos();
-	//获取解锁场景具体信息
-	getDetailInfos();
-	//让场景显示
-	_view->showAdvArea(_advAreaInfos);
 
 	return true;
 }

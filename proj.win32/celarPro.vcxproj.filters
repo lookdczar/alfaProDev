@@ -94,6 +94,18 @@
     <Filter Include="Classes\Manager\DataManager\UserData">
       <UniqueIdentifier>{541dca78-2903-44ea-aaad-10c020ed4f61}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Classes\Entity\FarmEntity">
+      <UniqueIdentifier>{bbafe786-a0b3-44b6-9f86-b9e800a28cd6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Classes\Entity\ItemEntity">
+      <UniqueIdentifier>{fb5cfbea-1456-47f0-873b-53e4f147ea79}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Classes\Model\Farm">
+      <UniqueIdentifier>{923b7683-246f-4879-be66-ce2e595c0a44}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Classes\View\Farm">
+      <UniqueIdentifier>{a83748f3-25da-49a4-823d-9bc55ace1fa5}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="main.cpp">
@@ -182,6 +194,21 @@
     </ClCompile>
     <ClCompile Include="..\Classes\Util\FileHelper.cpp">
       <Filter>Classes\Util</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Entity\FarmBuildData.cpp">
+      <Filter>Classes\Entity\FarmEntity</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Entity\ItemData.cpp">
+      <Filter>Classes\Entity\ItemEntity</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Model\FarmModel.cpp">
+      <Filter>Classes\Model\Farm</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\View\FarmController.cpp">
+      <Filter>Classes\View\Farm</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\View\FarmView.cpp">
+      <Filter>Classes\View\Farm</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
@@ -274,6 +301,21 @@
     </ClInclude>
     <ClInclude Include="..\Classes\Util\FileHelper.h">
       <Filter>Classes\Util</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Entity\FarmBuildData.h">
+      <Filter>Classes\Entity\FarmEntity</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Entity\ItemData.h">
+      <Filter>Classes\Entity\ItemEntity</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Model\FarmModel.h">
+      <Filter>Classes\Model\Farm</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\View\FarmController.h">
+      <Filter>Classes\View\Farm</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\View\FarmView.h">
+      <Filter>Classes\View\Farm</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>

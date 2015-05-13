@@ -29,7 +29,6 @@ public:
 
 	CREATE_WITH_VIEW(AdvModel, AdvView);
 
-private:
 	//读取存档，创建冒险场景实体
 	void getUserDataAndInitInfos();
 	//读取缓存，获取详细信息
