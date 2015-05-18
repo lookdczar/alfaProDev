@@ -144,6 +144,7 @@ xcopy "$(ProjectDir)..\Resources" "$(OutDir)" /D /E /I /F /Y</Command>
     <ClCompile Include="..\Classes\Entity\BaseDataEntity.cpp" />
     <ClCompile Include="..\Classes\Entity\FarmBuildData.cpp" />
     <ClCompile Include="..\Classes\Entity\ItemData.cpp" />
+    <ClCompile Include="..\Classes\Extensions\Array2D.cpp" />
     <ClCompile Include="..\Classes\Manager\BaseManager.cpp" />
     <ClCompile Include="..\Classes\Manager\CacheData.cpp" />
     <ClCompile Include="..\Classes\Manager\CacheManager.cpp" />
@@ -181,6 +182,7 @@ xcopy "$(ProjectDir)..\Resources" "$(OutDir)" /D /E /I /F /Y</Command>
     <ClInclude Include="..\Classes\Entity\BaseDataEntity.h" />
     <ClInclude Include="..\Classes\Entity\FarmBuildData.h" />
     <ClInclude Include="..\Classes\Entity\ItemData.h" />
+    <ClInclude Include="..\Classes\Extensions\Array2D.h" />
     <ClInclude Include="..\Classes\Manager\BaseManager.h" />
     <ClInclude Include="..\Classes\Manager\CacheData.h" />
     <ClInclude Include="..\Classes\Manager\CacheManager.h" />

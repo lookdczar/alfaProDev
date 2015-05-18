@@ -20,7 +20,14 @@ public:
 	virtual bool init();
 
 	//获取已解锁冒险场景编号
-	UserData* getAdvUnlockedInfo();
+	Value& getAdvUnlockedInfo();
+
+	//获取用户所有的物品
+	ValueMap& getUserItems();
+	//获取指定用户所有的指定id的物品数量，没有为0
+	Value& getUserItemCount(const std::string& itemId);
+	//设置指定用户所有的指定id的物品数量,可为负数
+	void setUserItemCount(const std::string& itemId,int count);
 
 	//获取某个用户数据
 	cocos2d::Value getUserData(USER_DATA_TYPE type);

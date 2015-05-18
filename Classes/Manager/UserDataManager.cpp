@@ -30,11 +30,6 @@ bool UserDataManager::init()
 	return true;
 }
 
-//获取已解锁冒险场景编号
-UserData* UserDataManager::getAdvUnlockedInfo()
-{
-	return allData.at(userDataTypeStr[int(USER_DATA_TYPE::advUnlocked)]);
-}
 
 //获取某个缓存数据
 cocos2d::Value UserDataManager::getUserData(USER_DATA_TYPE type)
@@ -52,5 +47,34 @@ bool UserDataManager::saveAllUserData()
 		map[data.first] = data.second->userData;
 	}
 	return FileHelper::plistWriteFile(map, F_USER_DATA);
+}
+
+//获取已解锁冒险场景编号
+Value& UserDataManager::getAdvUnlockedInfo()
+{
+	return allData.at(userDataTypeStr[int(USER_DATA_TYPE::advUnlocked)])->userData;
+}
+
+//获取用户所有的物品
+ValueMap& UserDataManager::getUserItems()
+{
+	Value &itemsValue = allData.at(userDataTypeStr[int(USER_DATA_TYPE::userItems)])->userData;
+	return itemsValue.asValueMap();
+}
+
+//获取指定用户所有的指定id的物品数量，没有为0
+Value& UserDataManager::getUserItemCount(const std::string& itemId)
+{
+	Value &itemsValue = allData.at(userDataTypeStr[int(USER_DATA_TYPE::userItems)])->userData;
+	ValueMap &itemsMap = itemsValue.asValueMap();
+	return itemsMap.at(itemId);
+}
+
+//设置指定用户所有的指定id的物品数量,可为负数
+void UserDataManager::setUserItemCount(const std::string& itemId, int count)
+{
+	Value &itemsValue = allData.at(userDataTypeStr[int(USER_DATA_TYPE::userItems)])->userData;
+	ValueMap &itemsMap = itemsValue.asValueMap();
+	itemsMap[itemId] = Value(count);
 }
 	
