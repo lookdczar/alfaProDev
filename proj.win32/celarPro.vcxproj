@@ -156,6 +156,7 @@ xcopy "$(ProjectDir)..\Resources" "$(OutDir)" /D /E /I /F /Y</Command>
     <ClCompile Include="..\Classes\Model\AdvModel.cpp" />
     <ClCompile Include="..\Classes\Model\BaseModel.cpp" />
     <ClCompile Include="..\Classes\Model\FarmModel.cpp" />
+    <ClCompile Include="..\Classes\Model\ItemModel.cpp" />
     <ClCompile Include="..\Classes\Scene\BaseScene.cpp" />
     <ClCompile Include="..\Classes\Scene\GameScene.cpp" />
     <ClCompile Include="..\Classes\Scene\MenuScene.cpp" />
@@ -169,6 +170,7 @@ xcopy "$(ProjectDir)..\Resources" "$(OutDir)" /D /E /I /F /Y</Command>
     <ClCompile Include="..\Classes\View\CreateView.cpp" />
     <ClCompile Include="..\Classes\View\FarmController.cpp" />
     <ClCompile Include="..\Classes\View\FarmView.cpp" />
+    <ClCompile Include="..\Classes\View\farmUI.cpp" />
     <ClCompile Include="..\Classes\View\MenuController.cpp" />
     <ClCompile Include="..\Classes\View\ShopController.cpp" />
     <ClCompile Include="..\Classes\View\ShopView.cpp" />
@@ -193,6 +195,7 @@ xcopy "$(ProjectDir)..\Resources" "$(OutDir)" /D /E /I /F /Y</Command>
     <ClInclude Include="..\Classes\Model\AdvModel.h" />
     <ClInclude Include="..\Classes\Model\BaseModel.h" />
     <ClInclude Include="..\Classes\Model\FarmModel.h" />
+    <ClInclude Include="..\Classes\Model\ItemModel.h" />
     <ClInclude Include="..\Classes\Scene\BaseScene.h" />
     <ClInclude Include="..\Classes\Scene\GameScene.h" />
     <ClInclude Include="..\Classes\Scene\MenuScene.h" />
@@ -206,6 +209,7 @@ xcopy "$(ProjectDir)..\Resources" "$(OutDir)" /D /E /I /F /Y</Command>
     <ClInclude Include="..\Classes\View\CreateView.h" />
     <ClInclude Include="..\Classes\View\FarmController.h" />
     <ClInclude Include="..\Classes\View\FarmView.h" />
+    <ClInclude Include="..\Classes\View\farmUI.h" />
     <ClInclude Include="..\Classes\View\MenuController.h" />
     <ClInclude Include="..\Classes\View\ShopController.h" />
     <ClInclude Include="..\Classes\View\ShopView.h" />

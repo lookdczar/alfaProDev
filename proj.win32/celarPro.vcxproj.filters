@@ -106,6 +106,9 @@
     <Filter Include="Classes\View\Farm">
       <UniqueIdentifier>{a83748f3-25da-49a4-823d-9bc55ace1fa5}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Classes\Model\Item">
+      <UniqueIdentifier>{6a759dec-012d-4591-8d20-13574d0c3b5b}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="main.cpp">
@@ -209,6 +212,12 @@
     </ClCompile>
     <ClCompile Include="..\Classes\View\FarmView.cpp">
       <Filter>Classes\View\Farm</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\View\farmUI.cpp">
+      <Filter>Classes\View\Farm</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Model\ItemModel.cpp">
+      <Filter>Classes\Model\Item</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
@@ -316,6 +325,12 @@
     </ClInclude>
     <ClInclude Include="..\Classes\View\FarmView.h">
       <Filter>Classes\View\Farm</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\View\farmUI.h">
+      <Filter>Classes\View\Farm</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Model\ItemModel.h">
+      <Filter>Classes\Model\Item</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>

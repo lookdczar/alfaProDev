@@ -10,6 +10,31 @@
 		<string>farmBuild001.png</string>
 		<key>buildName</key>
 		<string>woodhouse</string>
+    <key>buildCD</key>
+    <string>10</string>
+    <key>collections</key>
+    <dict>
+      <key>00B1</key>
+      <string>0.5</string>
+    </dict>
+	</dict>
+	<key>002</key>
+	<dict>
+		<key>buildId</key>
+		<string>002</string>
+		<key>buildImg</key>
+		<string>farmBuild002.png</string>
+		<key>buildName</key>
+		<string>field</string>
+    <key>buildCD</key>
+    <string>15</string>
+    <key>collections</key>
+    <dict>
+      <key>00BD</key>
+      <string>0.5</string>
+      <key>00B1</key>
+      <string>0.5</string>
+    </dict>
 	</dict>
 </dict>
 </plist>

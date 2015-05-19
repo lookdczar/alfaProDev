@@ -10,6 +10,7 @@
   <key>buildUnlocked</key>
 	<array>
 		<string>001</string>
+    <string>002</string>
 	</array>
 </dict>
 </plist>

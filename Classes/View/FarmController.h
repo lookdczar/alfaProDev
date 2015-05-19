@@ -6,6 +6,9 @@
 
 class FarmModel;
 class FarmView;
+class FarmBuildData;
+class ItemModel;
+class ItemData;
 
 class FarmController : public BaseController
 {
@@ -19,6 +22,8 @@ public:
 	void menuStartGameCallback(cocos2d::Ref* pSender);
 
 	CREATE_FUNC(FarmController);
+	//通过建筑编号调物品缓存
+	static cocos2d::Vector<ItemData*> getitemInfos(FarmBuildData* Fbuild);
 };
 
 #endif 

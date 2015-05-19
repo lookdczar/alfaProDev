@@ -37,6 +37,10 @@ bool FarmBuildData::bindingData(const ValueMap& mapData)
 	buildName = mapData.at("buildName");
 	//场景图片
 	buildImg = mapData.at("buildImg");
+	//建筑采集CD
+	buildCD = mapData.at("buildCD");
+	//掉落物品列表
+	collections = mapData.at("collections").asValueMap();
 	return true;
 }
 

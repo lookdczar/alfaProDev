@@ -16,6 +16,10 @@ public:
 	Value buildName;
 	//场景图片
 	Value buildImg;
+	//场景CD
+	Value buildCD;
+	//掉落物品列表
+	cocos2d::ValueMap collections;
 
 public:
 	FarmBuildData();
