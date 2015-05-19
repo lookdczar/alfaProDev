@@ -106,8 +106,13 @@
     <Filter Include="Classes\View\Farm">
       <UniqueIdentifier>{a83748f3-25da-49a4-823d-9bc55ace1fa5}</UniqueIdentifier>
     </Filter>
+<<<<<<< HEAD
     <Filter Include="Classes\Model\Item">
       <UniqueIdentifier>{6a759dec-012d-4591-8d20-13574d0c3b5b}</UniqueIdentifier>
+=======
+    <Filter Include="Classes\Extensions">
+      <UniqueIdentifier>{3f2c67be-3172-4744-8d51-5884fa25f4e1}</UniqueIdentifier>
+>>>>>>> origin/dev
     </Filter>
   </ItemGroup>
   <ItemGroup>
@@ -213,11 +218,16 @@
     <ClCompile Include="..\Classes\View\FarmView.cpp">
       <Filter>Classes\View\Farm</Filter>
     </ClCompile>
+<<<<<<< HEAD
     <ClCompile Include="..\Classes\View\farmUI.cpp">
       <Filter>Classes\View\Farm</Filter>
     </ClCompile>
     <ClCompile Include="..\Classes\Model\ItemModel.cpp">
       <Filter>Classes\Model\Item</Filter>
+=======
+    <ClCompile Include="..\Classes\Extensions\Array2D.cpp">
+      <Filter>Classes\Extensions</Filter>
+>>>>>>> origin/dev
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
@@ -326,11 +336,16 @@
     <ClInclude Include="..\Classes\View\FarmView.h">
       <Filter>Classes\View\Farm</Filter>
     </ClInclude>
+<<<<<<< HEAD
     <ClInclude Include="..\Classes\View\farmUI.h">
       <Filter>Classes\View\Farm</Filter>
     </ClInclude>
     <ClInclude Include="..\Classes\Model\ItemModel.h">
       <Filter>Classes\Model\Item</Filter>
+=======
+    <ClInclude Include="..\Classes\Extensions\Array2D.h">
+      <Filter>Classes\Extensions</Filter>
+>>>>>>> origin/dev
     </ClInclude>
   </ItemGroup>
   <ItemGroup>

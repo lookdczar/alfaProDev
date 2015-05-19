@@ -12,5 +12,10 @@
 		<string>001</string>
     <string>002</string>
 	</array>
+	<key>userItems</key>
+	<dict>
+		<key>00B1</key>
+		<integer>1</integer>
+	</dict>
 </dict>
 </plist>

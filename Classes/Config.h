@@ -36,11 +36,13 @@ typedef  enum  struct userDataType{
 	advUnlocked = 0,
 	//已解锁的农场建筑
 	buildUnlocked,
+	//玩家拥有的物品
+	userItems,
 	//enum结束标识
 	userDataEnd
 }  USER_DATA_TYPE;
 
-static std::string userDataTypeStr[int(USER_DATA_TYPE::userDataEnd)] = { "advUnlocked","buildUnlocked" };
+static std::string userDataTypeStr[int(USER_DATA_TYPE::userDataEnd)] = { "advUnlocked","buildUnlocked","userItems" };
 
 
 /****************所有文件名定义以F_开头***************/
