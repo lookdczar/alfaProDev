@@ -172,6 +172,7 @@ xcopy "$(ProjectDir)..\Resources" "$(OutDir)" /D /E /I /F /Y</Command>
     <ClCompile Include="..\Classes\View\FarmController.cpp" />
     <ClCompile Include="..\Classes\View\FarmView.cpp" />
     <ClCompile Include="..\Classes\View\farmUI.cpp" />
+    <ClCompile Include="..\Classes\View\infoBox.cpp" />
     <ClCompile Include="..\Classes\View\MenuController.cpp" />
     <ClCompile Include="..\Classes\View\ShopController.cpp" />
     <ClCompile Include="..\Classes\View\ShopView.cpp" />
@@ -212,6 +213,7 @@ xcopy "$(ProjectDir)..\Resources" "$(OutDir)" /D /E /I /F /Y</Command>
     <ClInclude Include="..\Classes\View\FarmController.h" />
     <ClInclude Include="..\Classes\View\FarmView.h" />
     <ClInclude Include="..\Classes\View\farmUI.h" />
+    <ClInclude Include="..\Classes\View\infoBox.h" />
     <ClInclude Include="..\Classes\View\MenuController.h" />
     <ClInclude Include="..\Classes\View\ShopController.h" />
     <ClInclude Include="..\Classes\View\ShopView.h" />
