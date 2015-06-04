@@ -42,12 +42,10 @@ bool infoBox::init()
 	_infoBox->setPosition(0, -visibleSize.height / 2 + 40 + contentSize.height / 2);
 	_infoBox->setVisible(false);
 
-	/*_infoBox->removeAllChildren();*/
-
 	_closeButtom = Sprite::create("close.png");
 	_closeButtom->setAnchorPoint(Vec2(0, 0));
-	auto item1 = MenuItemSprite::create(_closeButtom, _closeButtom, _closeButtom, CC_CALLBACK_1(infoBox::hideInfoBox, this));
-	_menu = Menu::create(item1, NULL);
+	auto _item = MenuItemSprite::create(_closeButtom, _closeButtom, _closeButtom, CC_CALLBACK_1(infoBox::hideInfoBoxCallback, this));
+	_menu = Menu::create(_item, NULL);
 	_menu->retain();
 	_menu->setPosition(contentSize.width - 20, contentSize.height - 20);
 	_infoBox->addChild(_menu);
@@ -55,7 +53,12 @@ bool infoBox::init()
 	return true;
 }
 
-void infoBox::hideInfoBox(cocos2d::Object* pSender)
+void infoBox::hideInfoBoxCallback(cocos2d::Object* pSender)
+{
+	_infoBox->setVisible(false);
+}
+
+void infoBox::hideInfoBox()
 {
 	_infoBox->setVisible(false);
 }

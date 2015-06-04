@@ -29,6 +29,9 @@ public:
 	//设置指定用户所有的指定id的物品数量,可为负数
 	void setUserItemCount(const std::string& itemId,int count);
 
+	//设置解锁建筑
+	void setBuildUnlock(int buildid);
+
 	//获取某个用户数据
 	cocos2d::Value getUserData(USER_DATA_TYPE type);
 

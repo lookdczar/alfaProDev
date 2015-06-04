@@ -18,7 +18,7 @@ bool FileHelper::plistWriteFile(const cocos2d::ValueMap& map, const std::string&
 	plistElement->SetAttribute("version", "1.0");
 	pDoc->LinkEndChild(plistElement);
 	//Ìí¼Ódic½Úµã
-	XMLElement *dicElement = pDoc->NewElement("dic");
+	XMLElement *dicElement = pDoc->NewElement("dict");
 	for (auto v : map)
 	{
 		plistWriteNode(v.first, v.second, dicElement, pDoc, true);
@@ -112,7 +112,7 @@ bool FileHelper::plistWriteNode(const std::string& key,
 		XMLElement *keyElement = pDoc->NewElement("key");
 		keyElement->LinkEndChild(pDoc->NewText(key.c_str()));
 		parentNode->LinkEndChild(keyElement);
-		XMLElement *valueElement = pDoc->NewElement("dic");
+		XMLElement *valueElement = pDoc->NewElement("dict");
 		for (auto v : value.asValueMap())
 		{
 			plistWriteNode(v.first, v.second, valueElement, pDoc,true);

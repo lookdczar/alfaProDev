@@ -46,3 +46,8 @@ void FarmModel::getDetailInfos()
 		GET_MA_CACHE->bindCacheDataToEntity(RES_TYPE::farmBuildInfo, base);
 	}
 }
+
+void FarmModel::setbuildUnlock(int buildid)
+{
+	GET_MA_UDATA->setBuildUnlock(buildid);
+}

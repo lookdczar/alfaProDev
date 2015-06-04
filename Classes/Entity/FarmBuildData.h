@@ -18,6 +18,8 @@ public:
 	Value buildImg;
 	//场景CD
 	Value buildCD;
+	//掉落物品数量范围均值
+	Value collectNum;
 	//掉落物品列表
 	cocos2d::ValueMap collections;
 

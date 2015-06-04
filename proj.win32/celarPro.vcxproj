@@ -163,6 +163,7 @@ xcopy "$(ProjectDir)..\Resources" "$(OutDir)" /D /E /I /F /Y</Command>
     <ClCompile Include="..\Classes\Scene\MenuScene.cpp" />
     <ClCompile Include="..\Classes\Util\CommonHelper.cpp" />
     <ClCompile Include="..\Classes\Util\FileHelper.cpp" />
+    <ClCompile Include="..\Classes\Util\GlobalConfig.cpp" />
     <ClCompile Include="..\Classes\View\AdvController.cpp" />
     <ClCompile Include="..\Classes\View\AdvView.cpp" />
     <ClCompile Include="..\Classes\View\BaseController.cpp" />
@@ -204,6 +205,7 @@ xcopy "$(ProjectDir)..\Resources" "$(OutDir)" /D /E /I /F /Y</Command>
     <ClInclude Include="..\Classes\Scene\MenuScene.h" />
     <ClInclude Include="..\Classes\Util\CommonHelper.h" />
     <ClInclude Include="..\Classes\Util\FileHelper.h" />
+    <ClInclude Include="..\Classes\Util\GlobalConfig.h" />
     <ClInclude Include="..\Classes\View\AdvController.h" />
     <ClInclude Include="..\Classes\View\AdvView.h" />
     <ClInclude Include="..\Classes\View\BaseController.h" />

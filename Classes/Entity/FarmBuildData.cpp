@@ -39,6 +39,8 @@ bool FarmBuildData::bindingData(const ValueMap& mapData)
 	buildImg = mapData.at("buildImg");
 	//建筑采集CD
 	buildCD = mapData.at("buildCD");
+	//掉落物品数量范围均值
+	collectNum = mapData.at("collectNum");
 	//掉落物品列表
 	collections = mapData.at("collections").asValueMap();
 	return true;

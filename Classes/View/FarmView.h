@@ -13,6 +13,8 @@ class FarmView : public BaseView
 public:
 	//信息框
 	infoBox* FinfoBox;
+
+	FarmController* _Delegate;
 public:
 	FarmView();
 	~FarmView();
@@ -25,10 +27,8 @@ public:
 	void initinfoBox();
 	//显示场景信息
 	void showFarmbuild(const cocos2d::Vector<FarmBuildData*>& buildInfos);
-	//按下按钮显示信息框
-	void showinfoBox(cocos2d::Object* pSender, FarmBuildData* Fbuild);
-	//农场建筑采集道具
-	void fBuildCollect(cocos2d::Object* pSender);
+	//build一个建筑
+	void initFbuild(FarmBuildData* Fbuild, int i);
 
 	void CDupdate(float delta, const cocos2d::Vector<FarmBuildData*>& buildInfos);
 };

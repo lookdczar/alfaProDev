@@ -30,6 +30,8 @@ public:
 	void getUserDataAndInitInfos();
 	//读取缓存，获取详细信息
 	void getDetailInfos();
+	//修改用户存档，升级建筑
+	void setbuildUnlock(int buildid);
 };
 
 #endif

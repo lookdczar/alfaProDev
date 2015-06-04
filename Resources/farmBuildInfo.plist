@@ -9,25 +9,93 @@
 		<key>buildImg</key>
 		<string>farmBuild001.png</string>
 		<key>buildName</key>
-		<string>woodhouse</string>
+		<string>矿洞初期</string>
     <key>buildCD</key>
     <string>10</string>
+    <key>collectNum</key>
+    <string>5</string>
     <key>collections</key>
     <dict>
-      <key>00B1</key>
+      <key>0001</key>
       <string>0.5</string>
+      <key>0002</key>
+      <string>0.25</string>
+      <key>0003</key>
+      <string>0.25</string>
     </dict>
 	</dict>
-	<key>002</key>
-	<dict>
-		<key>buildId</key>
-		<string>002</string>
-		<key>buildImg</key>
-		<string>farmBuild002.png</string>
-		<key>buildName</key>
-		<string>field</string>
+  <key>002</key>
+  <dict>
+    <key>buildId</key>
+    <string>002</string>
+    <key>buildImg</key>
+    <string>farmBuild002.png</string>
+    <key>buildName</key>
+    <string>钓鱼栈桥</string>
     <key>buildCD</key>
     <string>15</string>
+    <key>collectNum</key>
+    <string>5</string>
+    <key>collections</key>
+    <dict>
+      <key>0101</key>
+      <string>0.5</string>
+      <key>0102</key>
+      <string>0.5</string>
+    </dict>
+  </dict>
+  <key>003</key>
+  <dict>
+    <key>buildId</key>
+    <string>003</string>
+    <key>buildImg</key>
+    <string>farmBuild003.png</string>
+    <key>buildName</key>
+    <string>捕虫初期</string>
+    <key>buildCD</key>
+    <string>15</string>
+    <key>collectNum</key>
+    <string>5</string>
+    <key>collections</key>
+    <dict>
+      <key>0201</key>
+      <string>0.5</string>
+      <key>0202</key>
+      <string>0.5</string>
+    </dict>
+  </dict>
+  <key>004</key>
+  <dict>
+    <key>buildId</key>
+    <string>004</string>
+    <key>buildImg</key>
+    <string>farmBuild004.png</string>
+    <key>buildName</key>
+    <string>蘑菇丛初级</string>
+    <key>buildCD</key>
+    <string>15</string>
+    <key>collectNum</key>
+    <string>5</string>
+    <key>collections</key>
+    <dict>
+      <key>0301</key>
+      <string>0.5</string>
+      <key>0302</key>
+      <string>0.5</string>
+    </dict>
+  </dict>
+  <key>005</key>
+  <dict>
+    <key>buildId</key>
+    <string>005</string>
+    <key>buildImg</key>
+    <string>farmBuild005.png</string>
+    <key>buildName</key>
+    <string>田地</string>
+    <key>buildCD</key>
+    <string>15</string>
+    <key>collectNum</key>
+    <string>5</string>
     <key>collections</key>
     <dict>
       <key>00BD</key>
@@ -35,6 +103,108 @@
       <key>00B1</key>
       <string>0.5</string>
     </dict>
-	</dict>
+  </dict>
+  <key>006</key>
+  <dict>
+    <key>buildId</key>
+    <string>006</string>
+    <key>buildImg</key>
+    <string>farmBuild006.png</string>
+    <key>buildName</key>
+    <string>蜂箱</string>
+    <key>buildCD</key>
+    <string>15</string>
+    <key>collectNum</key>
+    <string>5</string>
+    <key>collections</key>
+    <dict>
+      <key>00BD</key>
+      <string>0.5</string>
+      <key>00B1</key>
+      <string>0.5</string>
+    </dict>
+  </dict>
+  <key>007</key>
+  <dict>
+    <key>buildId</key>
+    <string>007</string>
+    <key>buildImg</key>
+    <string>farmBuild001.png</string>
+    <key>buildName</key>
+    <string>矿洞一期</string>
+    <key>buildCD</key>
+    <string>10</string>
+    <key>collectNum</key>
+    <string>5</string>
+    <key>collections</key>
+    <dict>
+      <key>0004</key>
+      <string>0.5</string>
+      <key>0005</key>
+      <string>0.25</string>
+      <key>0006</key>
+      <string>0.25</string>
+    </dict>
+  </dict>
+  <key>008</key>
+  <dict>
+    <key>buildId</key>
+    <string>008</string>
+    <key>buildImg</key>
+    <string>farmBuild002.png</string>
+    <key>buildName</key>
+    <string>钓鱼栈桥+1</string>
+    <key>buildCD</key>
+    <string>15</string>
+    <key>collectNum</key>
+    <string>5</string>
+    <key>collections</key>
+    <dict>
+      <key>0103</key>
+      <string>0.5</string>
+      <key>0104</key>
+      <string>0.5</string>
+    </dict>
+  </dict>
+  <key>009</key>
+  <dict>
+    <key>buildId</key>
+    <string>009</string>
+    <key>buildImg</key>
+    <string>farmBuild003.png</string>
+    <key>buildName</key>
+    <string>捕虫一期</string>
+    <key>buildCD</key>
+    <string>15</string>
+    <key>collectNum</key>
+    <string>5</string>
+    <key>collections</key>
+    <dict>
+      <key>0203</key>
+      <string>0.5</string>
+      <key>0204</key>
+      <string>0.5</string>
+    </dict>
+  </dict>
+  <key>010</key>
+  <dict>
+    <key>buildId</key>
+    <string>010</string>
+    <key>buildImg</key>
+    <string>farmBuild004.png</string>
+    <key>buildName</key>
+    <string>蘑菇丛中级</string>
+    <key>buildCD</key>
+    <string>15</string>
+    <key>collectNum</key>
+    <string>5</string>
+    <key>collections</key>
+    <dict>
+      <key>0303</key>
+      <string>0.5</string>
+      <key>0304</key>
+      <string>0.5</string>
+    </dict>
+  </dict>
 </dict>
 </plist>

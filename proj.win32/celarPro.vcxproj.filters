@@ -228,6 +228,9 @@
     <ClCompile Include="..\Classes\View\infoBox.cpp">
       <Filter>Classes\View</Filter>
     </ClCompile>
+    <ClCompile Include="..\Classes\Util\GlobalConfig.cpp">
+      <Filter>Classes\Util</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="main.h">
@@ -346,6 +349,9 @@
     </ClInclude>
     <ClInclude Include="..\Classes\View\infoBox.h">
       <Filter>Classes\View</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Util\GlobalConfig.h">
+      <Filter>Classes\Util</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>

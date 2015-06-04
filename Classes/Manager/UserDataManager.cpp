@@ -9,7 +9,7 @@ UserDataManager::UserDataManager()
 
 	//初始化用户数据集容器
 	//读取用户存档plist
-	ValueMap &userDataSource = GET_MA_RES->readPlist(F_USER_DATA);
+	ValueMap &userDataSource = GET_MA_RES->readPlist(F_USER_DATA/*"../Resources/UserData.plist"*/);
 	for (int i = 0; i < int(USER_DATA_TYPE::userDataEnd); i++)
 	{
 		UserData * data = UserData::create(userDataSource[userDataTypeStr[i]]);
@@ -46,7 +46,7 @@ bool UserDataManager::saveAllUserData()
 	{
 		map[data.first] = data.second->userData;
 	}
-	return FileHelper::plistWriteFile(map, F_USER_DATA);
+	return FileHelper::plistWriteFile(map, /*F_USER_DATA*//*"Debug.win32/UserData.plist"*/"../Resources/UserData.plist");
 }
 
 //获取已解锁冒险场景编号
@@ -77,4 +77,30 @@ void UserDataManager::setUserItemCount(const std::string& itemId, int count)
 	ValueMap &itemsMap = itemsValue.asValueMap();
 	itemsMap[itemId] = Value(count);
 }
-	
+
+void UserDataManager::setBuildUnlock(int buildid)
+{
+	Value& buildUnlock = allData.at(userDataTypeStr[int(USER_DATA_TYPE::buildUnlocked)])->userData;
+	ValueVector& arrID = buildUnlock.asValueVector();
+	int i = 0;
+	for (auto id : arrID)
+	{
+		if (buildid == id.asInt())
+		{
+			char str[10];
+			if (buildid + 6 < 10)
+			{
+				sprintf(str, "00%d", (buildid + 6));
+			}
+			else
+			{
+				sprintf(str, "0%d", (buildid + 6));
+			}
+			arrID[i] = std::string(str);
+			saveAllUserData();
+		}
+		i++;
+	}
+}
+
+

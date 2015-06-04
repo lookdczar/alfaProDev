@@ -23,7 +23,9 @@ public:
 
 	CREATE_FUNC(FarmController);
 	//通过建筑编号调物品缓存
-	static cocos2d::Vector<ItemData*> getitemInfos(FarmBuildData* Fbuild);
+	cocos2d::Vector<ItemData*> getitemInfos(FarmBuildData* Fbuild);
+	//通过建筑编号升级建筑
+	void BuildUpdate(int buildid);
 };
 
 #endif 

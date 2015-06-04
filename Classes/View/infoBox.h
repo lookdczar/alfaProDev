@@ -29,7 +29,8 @@ public:
 	virtual bool init();
 
 	//隐藏信息框
-	void hideInfoBox(cocos2d::Object* pSender);
+	void hideInfoBoxCallback(cocos2d::Object* pSender);
+	void hideInfoBox();
 	//重置信息框
 	void resetInfoBox();
 };

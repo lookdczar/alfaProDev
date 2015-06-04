@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<plist version="1.0">
+    <dict>
+        <key>advUnlocked</key>
+        <array>
+            <string>001</string>
+            <string>002</string>
+        </array>
+        <key>buildUnlocked</key>
+        <array>
+            <string>001</string>
+            <string>002</string>
+            <string>003</string>
+            <string>004</string>
+            <string>006</string>
+        </array>
+        <key>userItems</key>
+        <dict>
+            <key>00B1</key>
+            <integer>19</integer>
+            <key>00BD</key>
+            <integer>9</integer>
+        </dict>
+    </dict>
+</plist>

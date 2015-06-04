@@ -10,6 +10,7 @@ using namespace ui;
 
 class FarmBuildData;
 class infoBox;
+class FarmController;
 
 class FarmUI : public Node
 {
@@ -20,6 +21,7 @@ public:
 	//建筑的菜单按钮
 	Sprite*	_buttom1;
 	Sprite*	_buttom2;
+	Sprite* _buttom3;
 	//采集CD条
 	LoadingBar* _CDbar;
 	//用于CD计时
@@ -39,15 +41,47 @@ public:
 	CREATE_FUNC(FarmUI);
 
 	//创建各个按钮的回调函数
-	void InitBuildBox(FarmBuildData* Fbuild);
+	void InitBuildBox(FarmBuildData* Fbuild, FarmController* _Delegate);
 	//按下按钮显示信息框
-	void showInfoBox(cocos2d::Object* pSender, FarmBuildData* Fbuild);
-	//隐藏信息框
-	void hideInfoBox();
+	void showInfoBox(cocos2d::Object* pSender, FarmBuildData* Fbuild, FarmController* _Delegate);
 	//建筑采集函数
-	void fBuildCollect(cocos2d::Object* pSender, FarmUI* FUI);
+	void fBuildCollect(cocos2d::Object* pSender, FarmBuildData* Fbuild, FarmUI* FUI, FarmController* _Delegate);
 	//CD条更新
 	void CDupdate(float delta);
+	//升级建筑函数
+	void BuilldUpdate(cocos2d::Object* pSender, FarmBuildData* Fbuild, FarmController* _Delegate);
+};
+
+
+
+
+class GainBox : public Sprite
+{
+private:
+	static GainBox* gainBox;
+
+public:
+	//信息框关闭按钮
+	Sprite*	_closeButtom;
+	//关闭菜单
+	Menu* _menu;
+	//信息框
+	Sprite*	_GainBox;
+
+public:
+	GainBox();
+	~GainBox();
+
+	static GainBox* getInstance();
+	static void destroyInstance();
+
+	virtual bool init();
+
+	//隐藏信息框
+	void hideGainBoxCallback(cocos2d::Object* pSender);
+	void hideGainBox();
+	//重置信息框
+	void resetGainBox();
 };
 
 #endif
